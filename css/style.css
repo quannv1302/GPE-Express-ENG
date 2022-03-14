@@ -145,7 +145,7 @@ p {
 	font-size: 15px;
 	font-weight: normal;
 	line-height: 30px;
-	color: #545454;
+	color: #747474;
 	margin-bottom: 15px;
 }
 hr {
@@ -1120,7 +1120,7 @@ label {
 
 /* 5. Breadcrumb  */
 .breadcrumb-bg {
-	background-image: url(../img/bg/breadcrumb_bg.jpg);
+	background-image: url(../img/bg/bg-about.jpg);
 	min-height: 726px;
 	background-position: center;
 	background-size: cover;
@@ -2130,7 +2130,7 @@ label {
 .single-about-wrap {
 	background: #fff;
 	box-shadow: 0px 0px 18px 0px rgba(47, 19, 78, 0.08);
-	border-radius: 30px;
+	border-radius: 16px;
 	padding: 40px 55px;
 	/* margin: 15px; */
 }
@@ -3653,7 +3653,7 @@ label {
 
 /* 20. Support */
 .s-breadcrumb-bg {
-	background-image: url(../img/bg/breadcrumb_bg02.jpg);
+	background-image: url(../img/bg/bg-tracking.jpg);
 }
 .t-breadcrumb-bg {
 	background-image: url(../img/bg/breadcrumb_bg03.jpg);
@@ -4956,4 +4956,14 @@ blockquote.classic-blockquote-post::after {
 
 .login-btn {
 	border: 1px solid #ffffff;
+}
+
+.services-wrapper .single-services .services-content h3{
+	height: 100px;
+	line-height: 32px;
+}
+
+.linkfb{
+	background-color: #1397E3;
+	height: 200px;
 }
