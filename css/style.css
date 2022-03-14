@@ -2186,6 +2186,7 @@ label {
 	width: 100%;
 }
 .services-content {
+	height: 280px;
 	padding: 0 30px 35px;
 	border-top: 4px solid transparent;
 	transition: .3s linear;
@@ -4959,7 +4960,6 @@ blockquote.classic-blockquote-post::after {
 }
 
 .services-wrapper .single-services .services-content h3{
-	height: 100px;
 	line-height: 32px;
 }
 
