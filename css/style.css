@@ -781,9 +781,9 @@ label {
 	border-top-right-radius: 10px;
 }
 .fare-rate-tab-content {
-	background: #0c0417;
+	/* background: #0c0417; */
+	background: #ffffff;
 	padding: 60px 70px;
-	padding-bottom: 80px;
 	overflow: hidden;
 }
 .modal-shipping-info ul li {
@@ -829,6 +829,8 @@ label {
 .shipping-country-box input {
 	display: block;
 	width: 248px;
+	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
+
 }
 .shipping-address-form input {
 	background: #fff;
@@ -836,18 +838,23 @@ label {
 	border: none;
 	font-size: 14px;
 	font-weight: 500;
+	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
+
 }
 .shipping-address-form input::placeholder,
 .modal-tracking-info input::placeholder  {
 	font-size: 12px;
 	color: #636262;
 }
+.shipping-address-box{
+	margin-right: 40px;
+}
 .shipping-address-box input {
 	display: block;
-	width: 700px;
+	width: 200px;
 }
 .shipping-country-box {
-	margin-right: 10px;
+	margin-right: 40px;
 }
 .shipping-step-count::before {
 	content: "";
@@ -3760,6 +3767,7 @@ label {
 	background-size: cover;
 	padding: 25px;
 	margin-bottom: 25px;
+	/* height:500px; */
 }
 .tracking-list ul {
 	background: #fff;
@@ -4966,4 +4974,31 @@ blockquote.classic-blockquote-post::after {
 .linkfb{
 	background-color: #1397E3;
 	height: 200px;
+}
+
+.currency{
+	display: block;
+	width: 200px;
+	padding: 14px 20px;
+	border: none;
+	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
+}
+.update-btn{
+	margin-top: 30px;
+}
+.table-row{
+	padding-left: 16px;
+	gap: 40px;
+}
+.table-row input{
+	border: none;
+	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
+	padding: 8px 16px;
+}
+.table-row .action{
+	padding-top: 4px;
+}
+
+.tracking-list .content{
+	text-align: left;
 }
