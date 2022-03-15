@@ -4742,7 +4742,7 @@ blockquote.classic-blockquote-post::after {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #FF5B5B;
+  border-top-color: #1397E3;
   height: 150px;
   margin: 0 auto 3.5em auto;
   width: 150px;
