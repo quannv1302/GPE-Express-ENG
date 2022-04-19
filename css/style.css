@@ -38,11 +38,13 @@
 */
 
 
-
+body{
+	font-family: 'Helvetica Neue','Helvetica';
+}
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900|Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900&display=swap');
  body {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
@@ -100,7 +102,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	color: #1397E3;
 	margin-top: 0px;
 	font-style: normal;
@@ -342,12 +344,13 @@ label {
 	background: #ffffff;
 }
 .header-country .nice-select {
+	margin-left: 20px;
 	border-radius: 0px;
 	font-size: 14px;
 	font-weight: 500;
 	padding-left: 25px;
 	padding-right: 23px;
-	color: #ffffff;
+	color: #1397E3;
 }
 .header-country .nice-select::after {
 	border-bottom: 2px solid #ffffff;
@@ -447,10 +450,22 @@ label {
 	color: #1397E3;
 }
 .header-search {
-	margin-left: 40px;
+	margin-left: 20px;
 }
 .header-btn {
-	margin-left: 30px;
+	margin-left: 20px;
+}
+.header-btn:last-child{
+	margin-left: 0;
+}
+.header-btn:last-child .btn{
+	background-color: #ffffff;
+	color: #1397E3;
+	border: 1px solid #1397E3;
+	/* border-radius: 4px; */
+}
+.header-btn:last-child .btn:hover{
+	color: #ffffff;
 }
 .header-btn .btn {
 	font-size: 15px;
@@ -781,9 +796,9 @@ label {
 	border-top-right-radius: 10px;
 }
 .fare-rate-tab-content {
-	/* background: #0c0417; */
 	background: #ffffff;
 	padding: 60px 70px;
+	padding-bottom: 80px;
 	overflow: hidden;
 }
 .modal-shipping-info ul li {
@@ -829,8 +844,6 @@ label {
 .shipping-country-box input {
 	display: block;
 	width: 248px;
-	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
-
 }
 .shipping-address-form input {
 	background: #fff;
@@ -838,8 +851,6 @@ label {
 	border: none;
 	font-size: 14px;
 	font-weight: 500;
-	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
-
 }
 .shipping-address-form input::placeholder,
 .modal-tracking-info input::placeholder  {
@@ -851,7 +862,7 @@ label {
 }
 .shipping-address-box input {
 	display: block;
-	width: 200px;
+	width: 700px;
 }
 .shipping-country-box {
 	margin-right: 40px;
@@ -1124,11 +1135,10 @@ label {
 .modal-backdrop {
 	z-index: 1;
 }
-
 /* 5. Breadcrumb  */
 .breadcrumb-bg {
 	background-image: url(../img/bg/bg-about.jpg);
-	min-height: 726px;
+	min-height: 640px;
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -1144,10 +1154,10 @@ label {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/bg/breadcrumb_overlay_dots.png);
+	background-image: url(../img/bg/breadcrumb_bg02.png);
 	background-size: cover;
 	background-position: center;
-	opacity: .03;
+	opacity: .05;
 }
 .breadcrumb-bg::after {
 	content: "";
@@ -1248,9 +1258,9 @@ label {
 	top: auto;
 	bottom: 15px;
 }
-.breadcrumb-content {
+/* .breadcrumb-content {
 	padding-top: 220px;
-}
+} */
 
 
 /* 6. Slider */
@@ -1258,7 +1268,8 @@ label {
 	/* background-image: url(../img/slider/slider_img02.jpg); */
 	background-image: url(../img/slider/bg2.jpg);
 	position: relative;
-	min-height: 749px;
+	/* min-height: 749px; */
+	height: 600px;
 	background-position: center;
 	background-size: cover;
 	z-index: 2;
@@ -2143,7 +2154,7 @@ label {
 }
 .section-title h6 {
 	font-size: 18px;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	font-weight: 900;
 	color: #1397E3;
 	margin-bottom: 12px;
@@ -2180,8 +2191,8 @@ label {
 }
 .section-title p {
 	margin-bottom: 0;
-	margin-top: 15px;
-	padding: 0 55px;
+	margin-top: 10px;
+	/* padding: 0 55px; */
 	line-height: 28px;
 }
 .single-services {
@@ -2231,7 +2242,7 @@ label {
 	font-size: 15px;
 	color: #1397E3;
 	font-weight: 900;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	display: block;
 	margin-bottom: 20px;
 }
@@ -2280,7 +2291,7 @@ label {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 15px;
-	color: #18364a;
+	color: #1397E3;
 	position: relative;
 }
 .s-section-title.text-center h2 {
@@ -2317,7 +2328,7 @@ label {
 	margin-bottom: 0;
 }
 .s-section-title h6 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	font-size: 18px;
 	font-weight: 900;
 	color: #1397E3;
@@ -2349,7 +2360,7 @@ label {
 	top: -75px;
 	width: 30px;
 	height: 540px;
-	background: #ff5120;
+	background: #1397E3;
 	z-index: -1;
 	transform: rotate(55deg) scaleY(.5);
 	transition: .8s linear;
@@ -2429,7 +2440,7 @@ label {
 	text-align: center;
 }
 .s-services-content h6 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	font-size: 15px;
 	font-weight: 900;
 	font-style: italic;
@@ -2689,7 +2700,7 @@ label {
 .video-title > span {
 	font-size: 18px;
 	font-weight: 900;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	color: #1397E3;
 	padding: 11px 15px;
 	background: #f9f9f9;
@@ -3212,7 +3223,7 @@ label {
 .extra-services {
 	font-size: 18px;
 	color: #1397E3;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	font-weight: 900;
 	margin-bottom: 20px;
 	margin-top: 17px;
@@ -3393,7 +3404,7 @@ label {
 }
 .section-title h2 > span {
 	color: #1397E3;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	font-weight: 900;
 	font-style: italic;
 }
@@ -3479,7 +3490,7 @@ label {
 	font-size: 18px;
 	font-weight: 900;
 	color: #1397E3;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 }
 .single-control-wrap:hover .control-overlay-content h4::before {
 	width: 60px;
@@ -3664,7 +3675,7 @@ label {
 	background-image: url(../img/bg/bg-tracking.jpg);
 }
 .t-breadcrumb-bg {
-	background-image: url(../img/bg/breadcrumb_bg03.jpg);
+	background-image: url(../img/bg/bg-about.jpg);
 }
 .support-bg {
 	background-image: url(../img/bg/delivery_bg.jpg);
@@ -3767,7 +3778,6 @@ label {
 	background-size: cover;
 	padding: 25px;
 	margin-bottom: 25px;
-	/* height:500px; */
 }
 .tracking-list ul {
 	background: #fff;
@@ -4593,7 +4603,7 @@ blockquote.classic-blockquote-post::after {
 	font-size: 14px;
 }
 .newsletter-form form button {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Helvetica Neue','Helvetica';
 	font-size: 22px;
 	font-style: italic;
 	font-weight: 900;
@@ -4968,12 +4978,23 @@ blockquote.classic-blockquote-post::after {
 }
 
 .services-wrapper .single-services .services-content h3{
+	height: 40px;
 	line-height: 32px;
 }
 
 .linkfb{
 	background-color: #1397E3;
 	height: 200px;
+}
+
+.single-project{
+	border-radius: 5px;
+	box-shadow: 0px 0px 43px 0px rgba(40, 11, 72, 0.11);
+	background: #fff;
+}
+
+.int-services-content ul li{
+	line-height: 40px;
 }
 
 .currency{
